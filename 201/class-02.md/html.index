@@ -1,0 +1,31 @@
+HTML Text funfamentals: 
+
+1. i) semantic elemants are important in html as they provide struture
+     with the use of clear headings, this is called semantic headings. for example,
+     '<main>' '<head> ect.
+ 
+ ii) the semanantic elements contain stylistic elements
+ that introdcuce the same styles across any html website.
+ This includes 'H1' being styled as bold as it is the main heading.
+
+2. there are 6 heading elements of html ranging from 1 all the way to 6.
+
+3. <sup> and <sub> are often found in maths equations or footnotes.
+The <sub> element is used for subscript text, often seen 
+in chemical formulas and abbreviations.
+
+4. when usuing the <abbr> element, there would need to be a title element
+used within the documennt to explain what has beeen abbreviated. this is usally then displayed 
+as a tooltip for when user hovers over the content. 
+
+CSS
+
+How CSS is structred 
+
+1. The representing selector is h2
+2. The declarations are the color: black, padding: 5px ect
+3. The components color and padding are considered properties. They define the specific aspects of the element's appearance that will be modified. In this case, color sets the text color to black, and padding adds 5 pixels of padding around the content of the <h2> elements.
+
+
+
+

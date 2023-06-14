@@ -1,0 +1,108 @@
+How the web works?
+
+1. HTML - Building block of webpage (structure)
+2. CSS - Styling webpages - making them look nice 
+3. Javascript - adding function to webpage 
+
+URL ie HTTP://WWW.GOOGLE.COM
+
+What happens next when you click URL?  
+
+Client (aka browser) + Server (aka computer)
+= client requests a service, server provides the service
+
+HTTP - textual language for internet (messages)
+HTTPS - encrypted messages 
+
+Conclusion...
+1 browser sent HTTP request to server and receives HTTP response 
+2 HTTP response contains HTML doc
+3 browser reads that HTML doc to construct doc object model and render (display) the page.
+
+
+Questions:
+
+1. HTTP uses data to send to computers using the client 
+server model. the client accepts message and then as a result sends 
+the information requested back to the computer. 
+This information travels over the network, in order to exchnage
+data.
+
+2.  HTML parsing:
+
+    The brower fetches HTML file, then starts to parce
+    it from top to bottom.
+  
+    The HTML parce reads the file's markup and constructs 
+    DOM. This represents the structure of the webpage.
+
+    As parcer reads the HTML tags, it crreates DOM
+    nodes and forming a hierarchical struture.
+
+    The parcer also reads any inline JS or CCS foudn within
+    the html file.
+
+3. CSS parsing:
+
+   once the intial HTML parse is complete, 
+   the browser then fetches CSS file.
+
+   The css parser reads the CSS code and then processes the style rules.
+
+   It identified which element in the DOM tree the rules
+   should apply to.
+
+  The parser computes the final styles for each element 
+  and creates a CSS Object Model (CSSOM).
+
+4. Javascript parcing:
+
+Browser fetches JS file. 
+
+JS parcer then reads code in the order it appears. 
+
+Any previous work done within the script is modified by the DOM
+and CSSOM, JS then continues to add interactivity to the page.
+
+The parser halts parsing HTML until the JavaScript 
+execution is complete, ensuring proper synchronization
+
+Whilst in the parsing process if document comes across
+external resouces such as images, scripts ect the browser
+will fetch them and allow parallel loading and rendering.
+
+In conclusion, the parcing porcess turns HTML into a DOM, CSS into a CSSOM and JS to modify
+the DOM and CSSOM. This renders and hisplays the webpage as intended. 
+
+3. How can you find images to add to a Website?
+
+   Stock Photo Websites
+   Creative Commons Search
+   Search Engines
+   Free Image Libraries
+   User-Generated Content
+
+4. how to create string in JS?
+   let str = new String("Hello, world!"); // Creating a string using the String constructor
+
+   how to create a number in JS?
+   let num = new Number(42); // Creating a number using the Number constructor
+
+
+A variable in JavaScript is a named container that holds a value. They are important in JavaScript because they:
+1. Enable data storage and manipulation.
+2. Promote code reusability and efficiency.
+3. Facilitate dynamic typing.
+4. Help manage scope and prevent naming conflicts.
+5. Control program flow through conditional statements and loops.
+6. Capture and store user input.
+7. Enable interaction and dynamic behavior in web applications.
+
+HTML 
+
+1. HTML attribute is additional information or properties added to HTML elements using name-value pairs.
+
+2. The first step to designing a website, is usally deciding what to accomplish,
+this means having a think through what the aims and objectives are of the website. 
+Answering these two questions will help decide what to next do in order to reach the goal.
+
